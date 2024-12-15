@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+.element {
+  width: calc( (100% - 20px) / 2 ); /* Correct syntax: spaces around operators */
+  height: calc(100vh - 5rem); /* Correctly handles mixed units */
+  background-color: lightblue;  /* Added background for visualization*/
+}
+
+/* Added a media query to handle potential browser issues */
+@media screen and (max-width: 768px){
+  .element{
+    width: calc(100% - 10px);
+  }
+}
